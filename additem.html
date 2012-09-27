@@ -39,13 +39,13 @@
 		<!-- Event Description goes here -->
 				<li><label for="evinfo">Event Information:</label><input type="text" id="evinfo" /></li>
 		<!-- Importance of Event Slider goes here -->
-				<li><label for="importance">Event Importance:</label><input type="range" id="importance" /></li>
+				<li><label for="importance">Event Importance:</label><input type="range" id="importance" min="1" max="10" /></li>
 		<!-- Attendance required? Yes or no question goes here -->
 				<li>Is Attendance Required?
 					<ul>
-						<li><input type="radio" checked value="Yes" id="yes" name="attend" /><label for="Yes">Yes</label></li>
+						<li><input type="radio" value="Yes" id="yes" name="attend" /><label for="Yes">Yes</label></li>
 						<li><input type="radio" value="No" id="no" name="attend" /><label for="No">No</label></li>
-						<li><input type="radio" value="Undecided" id="undecided" name="attend" /><label for="Undecided">Undecided</label></li>
+						<li><input type="radio" checked value="Undecided" id="undecided" name="attend" /><label for="Undecided">Undecided</label></li>
 					</ul>
 				</li>
 			</ul>
